@@ -1,5 +1,3 @@
-package TestNGprog;
-
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -14,7 +12,7 @@ public class TestOrangeex {
 
 	@BeforeTest
 	public void Lanuching() {
-
+		System.out.println("test");
 		System.setProperty("webdriver.chrome.driver", "/Users/Harish/Desktop/selenium/chromedriver");
 		driver = new ChromeDriver();
 		driver.get("https://opensource-demo.orangehrmlive.com/");

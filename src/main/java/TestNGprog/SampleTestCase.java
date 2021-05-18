@@ -4,10 +4,10 @@ import org.testng.annotations.Test;
 
 public class SampleTestCase 
 {
-@Test	
+/*@Test	
 public void TestCase1(){
 	System.out.println("First Case");
-}
+}*/
 @Test
 public void TestCase2(){
 	System.out.println("Second Case");
